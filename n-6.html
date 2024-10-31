@@ -52,11 +52,7 @@
 	<link rel="stylesheet" href="./fronts/style-switcher.css">
 	<link rel="stylesheet/less">
 	<style type="text/css">
-		.page-header {
-    background: url(./images/bg-ttl-2.jpg) !important;
-	background-size: cover !important;
-    background-position: center 8% !important;
-	}
+		
 		/* General */
 		:root {
 			--border-radius: 4px;
@@ -240,6 +236,7 @@
 			padding-bottom: 2px;
 			border-bottom: 1px dashed red;
 		}
+
 		.real-word-stories .custom-testimonial-container {
 			width: 90.5% !important;
 			padding-right: 90px !important;
@@ -269,13 +266,10 @@
 			bottom: -20px !important;
 			font-size: 0.6rem !important;
 		}
-		.card-custom-2 {
-    border: 3px solid #e1e1e1f7;
-    /* border-radius: 5px; */
-    background-color: #ececec !important;
-    background: linear-gradient(80deg, #ececec, #ffffff) !important;
-    background: linear-gradient(80deg, #ffffff, #ffffff) !important;
-}
+		.bg-linear {
+		background: linear-gradient(80deg, #f2f5ee, #ffffff);
+		background: linear-gradient(80deg, #f2f2f2, #dcdcde);
+		}
 	</style>
 </head>
 
@@ -403,8 +397,7 @@
 			<div class="container">
 				<div class="row justify-content-center py-2">
 					<div class="col-9 col-md-12 text-center">
-						<p class="text-color-light mb-0"><strong class="text-uppercase">mise à jour</strong> - nouveau
-							design, nouvelle et unique expérience - <strong><a href="./maintenance-mode.html"
+						<p class="text-color-light mb-0"><strong class="text-uppercase">mise à jour</strong> - nouveau design, nouvelle et unique expérience - <strong><a href="./maintenance-mode.html"
 									class="text-color-light text-decoration-none custom-text-underline-1">EN SAVOIR
 									PLUS</a></strong></p>
 					</div>
@@ -420,9 +413,11 @@
 						<div class="header-column w-100">
 							<div class="header-row justify-content-between">
 								<div class="header-logo z-index-2 col-lg-2 px-0">
-									<a href="./index.html">
+									<a
+										href="./index.html">
 										<img alt="" width="150" height="75" data-sticky-width="82"
-											data-sticky-height="40" data-sticky-top="84" src="./fronts/logo-DA1526.png">
+											data-sticky-height="40" data-sticky-top="84"
+											src="./fronts/logo-DA1526.png">
 									</a>
 								</div>
 								<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
@@ -431,63 +426,64 @@
 										<nav class="collapse">
 											<ul class="nav nav-pills" id="mainNav">
 												<li class="dropdown">
-													<a class="dropdown-item dropdown-toggle" href="#">À PROPOS<i
-															class="fas fa-chevron-down"></i></a>
+													<a class="dropdown-item dropdown-toggle" href="#">À PROPOS<i class="fas fa-chevron-down"></i></a>														
 													<ul class="dropdown-menu">
-														<li class="dropdown-submenu">
+													    <li class="dropdown-submenu">
 															<a class="dropdown-item" href="./qui-sommes-nous.html">Qui
 																sommes nous<i class="fas fa-chevron-down"></i></a>
 															<ul class="dropdown-menu">
-																<li><a class="dropdown-item"
-																		href="notre-philosophie.html">Notre
+																<li><a class="dropdown-item" href="notre-philosophie.html">Notre
 																		philosophie</a></li>
-																<li><a class="dropdown-item" href="digital.html">Notre
-																		expertise du
+																<li><a class="dropdown-item" href="digital.html">Notre expertise du
 																		digital</a></li>
-																<li><a class="dropdown-item" href="nos-valeurs.html">Nos
-																		valeurs</a>
+																<li><a class="dropdown-item" href="nos-valeurs.html">Nos valeurs</a>
 																</li>
-																<li><a class="dropdown-item" href="chiffre.html">Les
-																		chiffres
+																<li><a class="dropdown-item" href="chiffre.html">Les chiffres
 																		clés</a></li>
-																<li><a class="dropdown-item"
-																		href="rapport.html">Rapports
+																<li><a class="dropdown-item" href="rapport.html">Rapports
 																		financiers</a></li>
 															</ul>
 														</li>
-														<li><a class="dropdown-item" href="./mot-president.html">Le mot
-																du Président Fondateur</a></li>
+													   <li><a class="dropdown-item" href="./mot-president.html">Le mot du Président Fondateur</a></li>
 													</ul>
-												</li>
+												 </li>
 												<li class="dropdown">
-													<a href="./nos-entities.html" class="nav-link dropdown-toggle">FILIALES<i class="fas fa-chevron-down"></i></a>
-													<ul class="dropdown-menu">
-														<li><a href="./marque-grossiste.html" class="dropdown-item">Nos filiales Grossiste</a>
-														</li>
-														<li><a href="./marque-directes.html" class="dropdown-item">Nos filiales Direct</a></li>
-													</ul>
-												</li>
-												<li><a href="./partenaires.html" class="nav-link">NOS PARTENAIRES
-													</a></li>
-												<li><a href="./deal-courtage.html" class="nav-link">
-														DEAL & COURTAGE </a></li>
-												<li class="dropdown">
-													<a href="#" class="nav-link dropdown-toggle">MÉDIAS<i
+													<a href="./nos-entities.html"
+														class="nav-link dropdown-toggle"> FILIALES<i
 															class="fas fa-chevron-down"></i></a>
 													<ul class="dropdown-menu">
-														<li><a href="./news.html" class="dropdown-item">Actualités</a>
+														<li><a href="./marque-grossiste.html"
+																class="dropdown-item">Nos filiales Grossiste</a>
 														</li>
-														<li><a href="./presse.html" class="dropdown-item">Presse</a>
-														</li>
+														<li><a href="./marque-directes.html"
+																class="dropdown-item">Nos filiales Direct</a></li>
+													</ul>
+												</li>
+												<li><a href="./partenaires.html"
+														class="nav-link">NOS PARTENAIRES
+													</a></li>
+												<li><a href="./deal-courtage.html"
+														class="nav-link">
+														DEAL & COURTAGE </a></li>
+												<li class="dropdown">
+													<a href="#"
+														class="nav-link dropdown-toggle">MÉDIAS<i
+															class="fas fa-chevron-down"></i></a>
+													<ul class="dropdown-menu">
+														<li><a href="./news.html"
+																class="dropdown-item">Actualités</a></li>
+														<li><a href="./presse.html"
+																class="dropdown-item">Presse</a></li>
 													</ul>
 												</li>
 
 												<li class="dropdown">
-													<a href="#" class="nav-link dropdown-toggle">CARRIERES<i
+													<a href="#"
+														class="nav-link dropdown-toggle">CARRIERES<i
 															class="fas fa-chevron-down"></i></a>
 													<ul class="dropdown-menu">
-														<li><a href="./nos-metiers.html" class="dropdown-item">Découvrir
-																nos métiers</a></li>
+														<li><a href="./nos-metiers.html"
+																class="dropdown-item">Découvrir nos métiers</a></li>
 														<li><a href="./recrutements.html"
 																class="dropdown-item">Recrutements</a></li>
 													</ul>
@@ -514,7 +510,8 @@
 									<div class="header-nav-features ps-0 ms-1">
 										<div
 											class="header-nav-feature header-nav-features-cart header-nav-features-cart-big d-inline-flex top-2 ms-2">
-											<a href="./se-connecter.html" aria-label="">
+											<a href="./se-connecter.html"
+												 aria-label="">
 												<img src="./images/user.png" height="30" alt="Admin" title="Admin"
 													class="header-nav-top-icon-img">
 											</a>
@@ -538,8 +535,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-							<span class="page-header-title-border visible" style="width: 375.859px;"></span>
-							<h1 class="font-weight-bold">Le mot du Président Fondateur</h1>
+							<span class="page-header-title-border visible" style="width: 128.859px;"></span>
+							<h1 class="font-weight-bold">Actualités</h1>
 						</div>
 						<div class="col-md-4 order-1 order-md-2 align-self-center">
 							<ul class="breadcrumb d-block text-md-end">
@@ -547,473 +544,111 @@
 									<a href="#">Accueil</a>
 								</li>
 								<li class="active">
-									Le mot du Président Fondateur
+									Actualités
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<div class="container mt-5 mb-2 pt-md-4 pt-xl-0">
-				<div class="row align-items-center justify-content-center">
-					<div class="col-lg-8 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
-						<div class="overflow-hidden">
-							<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation"
-								data-appear-animation="maskUp" data-appear-animation-delay="300">Leader Insurance est un groupe de courtage français</h2>
-						</div>
-						<div class="custom-divider divider divider-primary divider-small my-3">
-							<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim"
-								data-appear-animation-delay="700">
-						</div>
-						<blockquote class="blockquote-primary">
-							<p><strong class="text-4 text-color-primary">“</strong> Un client est le visiteur le plus
-								important de nos locaux. Il ne
-								dépend pas de nous. Nous sommes dépendants de lui <strong
-									class="text-4 text-color-primary">”</strong></p>
-						</blockquote>
-						<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter"
-							data-appear-animation-delay="700">
-							Nous revendiquons une culture d’entrepreneurs et de service de proximité.
-
-							<br><br>
-							J’ai commencé en 2003, seul, en ouvrant une boutique d’assurance dans les Yvelines.<br>
-Nous sommes désormais 250 et sommes implantés en France et dans les DROM COM.<br>
-Nous continuons à développer nos agences locales en direct avec nos clients (plus de 20) en France, puis nous confirmons notre place de premier courtier en assurance construction.<br>
-Nous devenons en 2023 un multi spécialiste en étant, en plus de la construction,  un des leaders du courtage grossiste automobile et multirisque habitation.
-						</p>
-					</div>
-					<div class="col-10 col-md-9 col-lg-4 ps-lg-5 appear-animation"
-						data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1450"
-						data-plugin-options="{'accY': -200}">
-						<div class="position-relative">
-							<div data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-								<img src="./fronts/generic-1.png" class="img-fluid" alt="" />
-							</div>
-							<div class="position-absolute transform3dxy-n50" style="top: 25%; left: 7%;">
-								<div data-plugin-float-element
-									data-plugin-options="{'startPos': 'top', 'speed': 0.5, 'transition': true, 'transitionDuration': 2000, 'isInsideSVG': false}">
-									<img src="./fronts/generic-1-1.png" class="appear-animation" alt=""
-										data-appear-animation="fadeInUpShorterPlus"
-										data-appear-animation-delay="1700" />
-								</div>
-							</div>
-							<div class="position-absolute transform3dxy-n50 ms-5 pb-5 ms-xl-0"
-								style="top: 15%; left: 83%;">
-								<div data-plugin-float-element
-									data-plugin-options="{'startPos': 'top', 'speed': 1, 'transition': true, 'transitionDuration': 1500, 'isInsideSVG': false}">
-									<img src="./fronts/generic-1-2.png" class="appear-animation" alt=""
-										data-appear-animation="fadeInRightShorterPlus"
-										data-appear-animation-delay="1900" />
-								</div>
-							</div>
-							<div class="position-absolute transform3dxy-n50" style="top: 82%;left: 18%;">
-								<div data-plugin-float-element
-									data-plugin-options="{'startPos': 'top', 'speed': 2, 'transition': true, 'transitionDuration': 2500, 'isInsideSVG': false}">
-									<img src="./fronts/generic-1-3.png" class="appear-animation" alt=""
-										data-appear-animation="fadeInDownShorterPlus"
-										data-appear-animation-delay="2100" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
+			<div class="container pt-4 pb-5 my-5">
 				<div class="row">
-					<div class="col-md-12 mb-5 appear-animation" data-appear-animation="fadeInUpShorter"
-						data-appear-animation-delay="700">
-						Nous ouvrons en 2018 le capital à LT Capital, fonds d’investissement Small Cap, puis en juillet 2021 à ABENEX fonds, d’investissement Mid Cap.<br>
-La société est alors valorisée en 2021 à près de 200 000 000 d’euros.<br>
-Nous souhaitons conserver cette forte dynamique de croissance organique.
+					<div class="col-lg-8 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">
 
-						<br><br>
-						Dès 2020 nous nous intéressons à la croissance externe, et depuis nous avons rapproché au Groupe :
-						<br><br>
-						<ul>
-							<li>CF ASSURANCE courtier à Aix en Provence 
-							</li>
-							<li>SPRING ASSURANCE courtier grossiste à Boulogne sur Mer 
-							</li>
-							<li>LECAM courtier à Avignon
-							</li>
-							<li>JURIFISC courtier à Bordeaux 
-							</li>
-							<li>OCEALIZ premier courtier des DROM COM
-							</li>
-						</ul>
-						Notre équipe M&A (Mergers & Acquisitions) intègre avec succès ces très beaux cabinets au sein de Leader Insurance.
-						<br><br>
-						<blockquote class="blockquote-primary">
-							<p><strong class="text-4 text-color-primary">“</strong>Un client est le visiteur le plus
-								important de nos locaux. Il ne dépend
-								pas de nous. Nous sommes dépendants de lui. Il n’est pas une gêne dans notre travail. Il
-								en est l’objectif. Il n’est pas étranger à nos affaires. Il en fait partie. Nous ne lui
-								faisons pas une faveur en le servant. C’est lui qui nous fait cette faveur en nous en
-								donnant l’occasion.<strong class="text-4 text-color-primary">”</strong></p>
-						</blockquote>
+						<article>
+							<div class="card border-0">
+								<div class="card-body z-index-1 p-0">
+									<h1 class="text-7 font-weight-semibold line-height-2 mb-1">Cela fait désormais 12 ans que l’aventure est née 
+									</h1>
+									<p class="text-uppercase text-1 mb-3 text-color-default"><time pubdate datetime="2024-01-10">Septembre 2024 </time></p>
+									
+									<div class="post-image pb-4">
+										<img class="card-img-top custom-border-radius-1" src="./images/h-act-6.png" alt="Card Image">
+									</div>
 
-						<div class="d-flex align-items-start flex-column">
-							<div class="feature-box align-items-center appear-animation"
-								data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
-								<div class="feature-box-icon bg-transparent">
-									<i class="icons icon-user text-6 text-color-dark"></i>
-								</div>
-								<div class="feature-box-info line-height-2 ps-1">
-									<span class="d-block text-1 font-weight-semibold text-color-default">Président
-										Fondateur</span>
-									<strong class="text-4-5"><a href="#"
-											class="text-color-dark text-color-hover-primary text-decoration-none">Yoann
-											CHERY</a></strong>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+									
+									<div class="card-body p-0">
+										<p>
+											Leader Insurance et l’assureur MIC Insurance célébraient hier soir la rentrée 2024 à Paris sur un magnifique roof top face à la “dame de fer”
+<br><br>
+Yoann CHERY et Emmanuel MORANDINI rappelaient aux équipes cette aventure, ce lien fort, et les valeurs partagées par les équipes respectives depuis l’origine.
+<br><br>
+Le dynamisme, la rigueur et la pérennité, guideront pour une « décennale » de plus cette relation assise sur de solides fondations !
 
-			</div>
+										</p>
 
-			<section class="section bg-section-2 border-0 m-0">
-				<div class="container my-3">
-					<div class="row justify-content-center pb-3 mb-1">
-						<div class="col text-left">
-							<h2 class="font-weight-bold text-color-dark line-height-1 mb-0">Nos filiales Grossiste et
-								directes
+										<!-- Go to www.addtoany.com to customize -->
+										<!-- AddToAny BEGIN -->
+										<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+											<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+											<a class="a2a_button_facebook"></a>
+											<a class="a2a_button_x"></a>
+											<a class="a2a_button_copy_link"></a>
+										</div>
+										<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://static.addtoany.com/menu/page.js"></script>
 
-							</h2>
-							<div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
-								<hr class="my-0">
-							</div>
-							<p class="font-weight-light text-3-5 mb-1">
-								Découvrez Nos filiales Grossiste et directes, sélectionnées pour offrir des solutions
-<br>d'assurance adaptées à chaque besoin, avec expertise et flexibilité.
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<div class="owl-carousel nav-outside nav-style-1 nav-dark nav-arrows-thin nav-font-size-lg custom-carousel-box-shadow-1 mb-0 owl-theme owl-carousel-init owl-loaded owl-drag"
-								data-plugin-options="{&#39;responsive&#39;: {&#39;0&#39;: {&#39;items&#39;: 1}, &#39;479&#39;: {&#39;items&#39;: 1}, &#39;768&#39;: {&#39;items&#39;: 2}, &#39;979&#39;: {&#39;items&#39;: 2}, &#39;1199&#39;: {&#39;items&#39;: 3}}, &#39;autoplay&#39;: true, &#39;autoplayTimeout&#39;: 5000, &#39;autoplayHoverPause&#39;: true, &#39;dots&#39;: false, &#39;nav&#39;: true, &#39;loop&#39;: true, &#39;margin&#39;: 15, &#39;stagePadding&#39;: &#39;75&#39;}"
-								style="height: auto;">
-
-								<div class="owl-stage-outer real-word-stories">
-									<div class="owl-stage row justify-content-left pt-3 mb-2"
-										style="transform: translate3d(-1985px, 0px, 0px); transition: all 0.25s ease 0s; width: 3970px;">
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-d-6.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	OCEALIZ</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">Premier courtier grossiste dans les DROM COM en assurances automobile et 2 roues
-																	<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Ocealiz.fr</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-d-7.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	LECAM</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">Courtier basé à Avignon, spécialiste des marchands ambulants
-
-																	<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Lecam.co</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-d-8.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	JURIFISC</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">Courtier bordelais spécialisé en Protection Juridique
-
-																	<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Jurifisc-apj.fr</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-c-2.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	CF Souscription</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">Spécialisé en risques
-																	d’entreprise, CF Souscription est une véritable «
-																	marketplace » de l’assurance, qui prend également en
-																	charge le produit
-																	piscine en Responsabilité Civile Décennale.<a
-																		href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Cf-souscription.com</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-c-1.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-3">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	Leader Souscription</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">
-																	Est le partenaire historique de MIC Insurance
-																	Millennium.
-																	Nos équipes sont au service des courtiers pour la
-																	souscription et la gestion des contrats MIC
-																	Insurance Millennium.<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">leader-souscription.com</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-d-1.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-3">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	Leader Assurances</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">
-																	Filiale historique du Groupe, elle offre à travers
-																	ses agences, des solutions pour les particuliers et
-																	les professionnels (risques automobiles, gestion du
-																	patrimoine, santé, risques professionnels et
-																	industriels).<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Leader-assurances.eu</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="fronts/logo-d-2.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	CF Assurances</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">L’assurance des risques
-																	d’entreprise sur mesure, le véritable pôle haute
-																	couture du Groupe qui apporte un suivi très
-																	personnalisé aux grands risques et aux grandes
-																	entreprises.<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Cfassurances.com</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="owl-item" style="width: 382px; margin-right: 15px;">
-											<div class="real-word-stories">
-												<div class="position-relative">
-													<div class="custom-testimonial-container card-custom-2 mb-5">
-														<div
-															class="testimonial custom-testimonial testimonial-style-2 mb-0">
-															<div
-																class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
-																<img src="./fronts/logo-c-5.png" width="110">
-																<a href="#"
-																	class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">En
-																	savoir plus</a>
-															</div>
-															<blockquote class="px-0 pb-5">
-																<h4
-																	class="text-color-secondary font-weight-bold text-start text-4">
-																	AXRE Insurance</h4>
-																<p class="mb-0 text-start text-2 line-height-4"
-																	style="min-height: 200px;">Offre des solutions sur
-																	des risques entreprises, et/ou de construction.
-																	Notre tarificateur en ligne permet aux courtiers de
-																	gérer l’intégralité de leurs dossiers de
-																	souscription en ligne et de valider un dossier en
-																	moins de 30 secondes.<a href="#"
-																		class="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3">En
-																		savoir plus</a></p>
-															</blockquote>
-															<div class="testimonial-arrow-down"></div>
-															<div
-																class="testimonial-author d-flex flex-row justify-content-start align-items-center mt-4 mx-4">
-																<p><span
-																		class="text-uppercase text-start">Axre.fr</span>
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</article>
+
 					</div>
-					<div class="row">
-						<div class="col text-left">
-							<a href="./nos-entities.html"
-								class="btn btn-primary text-color-light custom-btn-border-radius font-weight-bold text-3 btn-px-5 btn-py-3 appear-animation"
-								data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="850"
-								style="animation-delay: 850ms;">VOIR TOUS</a>
-						</div>
+					<div class="col-lg-4">
+						<aside class="sidebar">
+							<div class="px-3 mb-4">
+								<h3 class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0 mb-3">
+									Rechercher</h3>
+							</div>
+							<div class="px-3 mt-4">
+								<form action="news.html" method="get">
+									<div class="input-group mb-3 pb-1"> <input
+											class="form-control box-shadow-none text-1 border-0 bg-color-grey"
+											placeholder="" name="s" id="s" type="text"> <button
+											type="submit" class="btn bg-color-grey text-1 p-2"><i
+												class="fas fa-search m-2"></i></button> </div>
+								</form>
+							</div>
+							<div class="py-1 clearfix">
+								<hr class="my-2">
+							</div>
+							<div class="px-3 mt-4">
+								<h3 class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0 mb-3">
+									Articles récents</h3>
+								<div class="pb-2 mb-1"> <a href="#"
+										class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">Septembre 2024<a
+										href="./n-6.html"
+										class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Cela fait désormais 12 ans que l’aventure est née</a> <a href="#"
+										class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">Février 2024 <a
+										href="./n-5.html"
+										class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Convention du Groupe Leader Insurances</a> <a href="#"
+										class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">Novembre 2023 <a
+										href="./n-4.html"
+										class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Le Groupe Leader Insurance, premier partenaire de l’association Petits Princes</a> </div>
+							</div>
+							<div class="py-1 clearfix">
+								<hr class="my-2">
+							</div>
+							<div class="px-3 mt-4">
+								<h3 class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0">
+									Catégories</h3>
+								<ul class="nav nav-list flex-column mt-2 mb-0 p-relative right-9">
+									<li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Association
+											(2)</a></li>
+									<li class="nav-item"> <a class="nav-link bg-transparent border-0"
+											href="#">Administration (1)</a>
+									</li>
+									<li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Divertissement
+											(1)</a></li>
+									<li class="nav-item"><a class="nav-link bg-transparent border-0"
+											href="#">Annonces (2)</a></li>
+											<li class="nav-item"><a class="nav-link bg-transparent border-0"
+												href="#">Mise à jour (0)</a></li>
+								</ul>
+							</div>
+						</aside>
 					</div>
-			</section>
+				</div>
+			</div>
 
 			<section class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0">
 				<svg class="custom-svg-3" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -1153,20 +788,20 @@ Nous souhaitons conserver cette forte dynamique de croissance organique.
 						<h5 class="text-transform-none font-weight-bold text-color-light text-4-5 mb-3">À PROPOS
 						</h5>
 						<ul class="list list-unstyled mb-0">
-							<li class="mb-0"><a href="./qui-sommes-nous.html">Qui sommes nous</a></li>
+							<li class="mb-0"><a href="./qui-sommes-nous.html">Qui sommes nous ?</a></li>
 							<ul class="list list-unstyled mb-0 ps-2 py-2" style="border-left: 1px solid #8080804d;">
-								<li class="mb-0"><a href="./notre-philosophie.html">Notre
+								<li class="mb-0"><a href="#">Nos valeurs</a></li>
+								<li class="mb-0"><a href="#">Notre
 										philosophie</a></li>
-								<li class="mb-0 "><a href="./digital.html">Notre
+								<li class="mb-0 "><a href="#">Notre
 										expertise du digital</a></li>
-								<li class="mb-0"><a href="./nos-valeurs.html">Nos valeurs</a></li>
-								<li class="mb-0"><a href="./chiffre.html">Les
+								<li class="mb-0"><a href="#">Les
 										chiffres clés</a></li>
-								<li class="mb-0"><a href="./rapport.html">Rapports
+								<li class="mb-0"><a href="#">Rapports
 										financiers</a></li>
 							</ul>
 							<li class="mb-0"><a href="./mot-president.html">Le
-									mot du Président Fondateur</a></li>
+								mot du Président Fondateur</a></li>
 						</ul>
 					</div>
 					<div class="col-md-6 col-lg-3 offset-lg-1">
@@ -1192,16 +827,15 @@ Nous souhaitons conserver cette forte dynamique de croissance organique.
 									<li class="p-0"><a target="_self" href="./rgpd.html"
 											class="ml-1 text-decoration-none"
 											title="Protection des données personnelles"
-											aria-label="Protection des données personnelles">Protection des données
-											personnelles</a>
+											aria-label="Protection des données personnelles">Protection des données personnelles</a>
 									</li>
 									<li class="p-0"><span class="px-2">|</span><a target="_self"
-											href="./mentions-legales.html" class="ml-1 text-decoration-none"
-											title="Mentions légales" aria-label="Mentions légales">Mentions légales</a>
-									</li>
-									<li class="p-0"><span class="px-2">|</span><a target="_self" href="./cookies.html"
-											class="ml-1 text-decoration-none" title="Politique des Cookies"
-											aria-label="Politique des Cookies">Politique des Cookies</a></li>
+											href="./mentions-legales.html"
+											class="ml-1 text-decoration-none" title="Mentions légales"
+											aria-label="Mentions légales">Mentions légales</a></li>
+									<li class="p-0"><span class="px-2">|</span><a target="_self"
+											href="./cookies.html" class="ml-1 text-decoration-none"
+											title="Politique des Cookies" aria-label="Politique des Cookies">Politique des Cookies</a></li>
 								</ul>
 							</nav>
 						</div>
