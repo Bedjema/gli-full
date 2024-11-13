@@ -52,11 +52,6 @@
 	<link rel="stylesheet" href="./fronts/style-switcher.css">
 	<link rel="stylesheet/less">
 	<style type="text/css">
-		.page-header {
-    background: url(./images/bg-ttl-2.jpg) !important;
-	background-size: cover !important;
-    background-position: center 8% !important;
-	}
 		/* General */
 		:root {
 			--border-radius: 4px;
@@ -539,16 +534,22 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 order-2 order-md-1 align-self-center p-static">
-							<span class="page-header-title-border visible" style="width: 195.859px;"></span>
-							<h1 class="font-weight-bold">Contacter-nous</h1>
+							<span class="page-header-title-border visible" style="width: 280.859px;"></span>
+							<h1 class="font-weight-bold">Responsable d’agence</h1>
 						</div>
 						<div class="col-md-5 order-1 order-md-2 align-self-center">
 							<ul class="breadcrumb d-block text-md-end">
 								<li>
 									<a href="#">Accueil</a>
 								</li>
+								<li>
+									<a href="#">Carrières</a>
+								</li>
+								<li>
+									<a href="#">Découvrir nos métiers</a>
+								</li>
 								<li class="active">
-									Contacter-nous
+									Responsable d’agence
 								</li>
 							</ul>
 						</div>
@@ -556,155 +557,207 @@
 				</div>
 			</section>
 
-
-			<div role="main" class="main">
-
-				
-				<div class="container">
-				
-					<div class="row pb-4">
-						<div class="col-lg-7">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="overflow-hidden">
-										<h2 class="font-weight-bold text-color-dark line-height-3 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">Envoyez-nous un message</h2>
-									</div>
-									<div class="custom-divider divider divider-primary divider-small pt-1 mb-3 mt-2">
-										<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
-									</div>
-									<p class="pe-5 me-md-5 me-lg-4 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
-										N'hésitez pas à demander des détails, ne gardez aucune question !
-									</p>
-								</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="overflow-hidden">
+							<h2 class="font-weight-semibold text-6-7 text-color-dark line-height-1 mb-0 appear-animation"
+								data-appear-animation="maskUp" data-appear-animation-delay="300">brève biographie</h2>
+						</div>
+						<div class="custom-divider divider divider-primary divider-small my-3">
+							<hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible"
+								data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700"
+								style="animation-delay: 700ms;">
+						</div>
+					</div>
+				</div>
+				<div class="row mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+					<div class="col">
+						<div class="d-flex flex-wrap custom-instructor-details-mini">
+							<div class="position-relative col-12 col-md-3 lazyloaded"
+								style="background-position: center; background-size: cover;">
+								<img src="./fronts/pau.jpg" class="img-fluid h-100" alt="">
 							</div>
-							<form class="contact-form custom-form-style-1 mt-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" action="php/contact-form.php" method="POST">
-                                <div class="contact-form-success alert alert-success d-none mt-4">
-                                    <strong>Success!</strong> Your message has been sent to us.
-                                </div>
-
-                                <div class="contact-form-error alert alert-danger d-none mt-4">
-                                    <strong>Error!</strong> There was an error sending your message.
-                                    <span class="mail-error-message text-1 d-block"></span>
-                                </div>
-                                
-                                <div class="row row-gutter-sm">
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Le nom est requis" maxlength="100" class="form-control" name="name" id="name" required placeholder="Nom">
-                                    </div>
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Le numéro de téléphone est requis" maxlength="100" class="form-control" name="phone" id="phone" required placeholder="Téléphone">
-                                    </div>
-                                </div>
-                                <div class="row row-gutter-sm">
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="email" value="" data-msg-required="L’adresse mail est requise" data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required placeholder="Email">
-                                    </div>
-                                    <div class="form-group col-lg-6 mb-4">
-                                        <input type="text" value="" data-msg-required="Le sujet est requis" maxlength="100" class="form-control" name="subject" id="subject" required placeholder="Sujet">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col mb-4">
-                                        <textarea maxlength="5000" data-msg-required="Le message est requis" rows="10" class="form-control" name="message" id="message" required placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col mb-0">
-                                        <button type="submit" class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3" data-loading-text="Loading...">ENVOYER</button>
-                                    </div>
-                                </div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="text-justify mt-4">
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0">Les données à caractère personnel vous concernant sont utilisées dansle cadre de la
-												passation, la gestion et l’exécution du contrat d’assurance.
-												Ces informations peuvent aussi faire l'objet de traitements aux fins de : </p>
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0">• Gestion commerciale,sauf opposition</p>
-				
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0"> • Lutte contre le blanchiment d’argent et le financement du terrorisme, en application
-												des dispositions législatives et règlementaires en vigueur. Dans ce cadre, elles
-												pourront être
-												transmises aux autorités compétentes</p>
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0"> • Lutte contre la fraude assurance, pouvant entraîner une inscription sur une liste de
-												personnes présentant un risque de fraude
-												Les données sont destinées à Groupe Leader Insurance, responsable des traitements et
-												pourront être transmises au Groupe Leader Insurance, dans les limites de leurs
-												habilitations,
-												aux entités contractuellement liées à Groupe LeaderInsurance</p>
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0">Les droits d’accès, de rectification, de suppression et d’opposition pour motifs
-												légitimes, peuvent être exercés en s’adressant au Délégué à la Protection des Données
-												par mail :
-												<span class="obfusc">moc.ecnarusniredael-epuorg@opd</span>                                 par
-												courrier : Groupe Leader Insurance - Délégué à la Protection des Données – Zone
-												d’activités des Beurrons - Route Départementale 191 -
-												78680 EPÔNE.
-											</p>
-				
-				
-											<p class="text-0 line-height-2 text-color-gray-1000 mb-0"> En application des dispositions du Code de la Consommation, les consommateurs peuvent
-												s'inscrire gratuitement sur le registre d'opposition au démarchage téléphonique <a href="http://www.bloctel.gouv.fr/" style="color: #4E8EBD !important;">www.bloctel.gouv.fr</a>
-											</p>
+							<div class="col-md-9 p-4">
+			
+								<div class="d-md-flex mb-4">
+									<div class="ps-md-0 mb-3 mb-md-0 pe-4 me-4 border-right">
+										<div class="d-flex flex-row align-items-center h-100">
+											<div class="p-0">
+												<p class="mb-0 text-2 text-uppercase p-relative top-3">Mme.</p>
+												<h4 class="mb-0 text-color-secondary text-7">Pauline Mauger</h4>
+											</div>
 										</div>
 									</div>
-				
-								</div>
-                            </form>
-						</div>
-						<div class="col-lg-5 mt-2">
-
-							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
-								<h4 class="mt-2 mb-1">Notre <strong>siège social</strong></h4>
-								<div class="feature-box align-items-center mb-3 pb-1">
-									<div class="feature-box-icon custom-feature-box-icon-size-1 top-0" style="background-color:#212529 !important;">
-										<i class="fas fa-map-marker-alt position-relative"></i>
+									<div class="ps-md-0 mb-3 mb-md-0 pe-4 me-4 flex-grow-1">
+										<div class="d-flex flex-row align-items-center h-100">
+											<div class="p-0">
+												<!-- <p class="mb-0 text-1 text-uppercase p-relative top-3">Postes</p>
+															<h4 class="mb-0 text-color-secondary text-3">0</h4> -->
+											</div>
+										</div>
 									</div>
-									<div class="feature-box-info">
-										<p class="mb-0 line-height-5">Groupe Leader Insurance<br>
-											87 bd Haussmann<br>
-											75008 <span class="font-weight-semibold">Paris</span>
-											</p>
+									<div class="ps-md-4">
+										<div class="d-flex flex-row align-items-center h-100">
+										</div>
 									</div>
 								</div>
-								<h4 class="mt-2 mb-1">Notre <strong>correspondance</strong></h4>
-								<div class="feature-box align-items-center mb-3 pb-1">
-									<div class="feature-box-icon custom-feature-box-icon-size-1 bg-color-secondary top-0">
-										<i class="icon-location-pin icons position-relative"></i>
-									</div>
-									<div class="feature-box-info">
-										<p class="mb-0 line-height-5">Groupe Leader Insurance<br>
-											RD 191 - Zone des Beurrons<br>
-											78680 <span class="font-weight-semibold">Epône</span>
-											</p>
-									</div>
+			
+								<div class="custom-read-more-style-1">
+									<p class="text-4 line-height-2 font-weight-semibold mb-0">
+									Référente Règlements & Recours – Service Sinistre
+									</p>
+									<ul class="list list-icons list-primary list-side-borders mt-4">
+										<li><i class="fas fa-check"></i> Philo : --</li>
+										<li><i class="fas fa-check"></i> Diplôme : --</li>
+										<li><i class="fas fa-check"></i> Ville : --</li>
+										<li><i class="fas fa-check"></i> Loisirs : --</li>
+									</ul>
 								</div>
-								<ul class="list list-icons list-icons-style-3 mt-2">
-									<li><i class="fas fa-phone top-6" style="background-color:#212529 !important;"></i> <strong class="text-dark">Téléphone</strong> : <a class="text-color-grey-1000" href="tel:0185790000">01 85 79 00 00</a></li>
-									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email</strong> : <a class="text-color-grey-1000" href="mailto:info@groupe-leaderinsurance.fr">info@groupe-leaderinsurance.fr</a></li>
-								</ul>
 							</div>
-
-							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
-								<h4 class="pt-5">Nos <strong>horaires</strong></h4>
-								<ul class="list list-icons list-dark mt-2">
-									<li><i class="fa fa-clock top-6"></i> <strong class="text-dark">RCD</strong> : Lun-Ven 9h-12h et 13h30-17h</li>
-									<li><i class="fa fa-clock top-6"></i> <strong class="text-dark">Dommages</strong> : Lun-Ven 9h-12h30 et 14h-17h</li>
-									<li><i class="fa fa-clock top-6"></i> <strong class="text-dark">Règlement</strong> : Lun-Ven 10h à 12h</li>
-									<li><i class="fa fa-clock top-6"></i> <strong class="text-dark">Sinistres</strong> : Lun-Ven 14h à 17h</l>
-								</ul>
-							</div>
-
 						</div>
-
 					</div>
-
 				</div>
-
-				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<div id="googlemaps" class="google-map mt-0" style="height: 500px;"></div>
-
-
+			
+				<div class="row">
+					<div class="col-md-12">
+						<div class="overflow-hidden">
+							<h2 class="font-weight-semibold text-6-7 text-color-dark line-height-1 mb-0 appear-animation"
+								data-appear-animation="maskUp" data-appear-animation-delay="300">Questions-réponses avec
+								pauline</h2>
+						</div>
+						<div class="custom-divider divider divider-primary divider-small my-3">
+							<hr class="my-0 appear-animation animated customLineProgressAnim appear-animation-visible"
+								data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700"
+								style="animation-delay: 700ms;">
+						</div>
+					</div>
+				</div>
+			
+				<div class="row row-gutter-sm pt-4 pt-sm-0">
+					<div class="col-md-8 col-lg-9 mb-5 mb-md-0">
+						<div class="accordion custom-accordion-style-1 appear-animation" data-appear-animation="fadeInUpShorter"
+							data-appear-animation-delay="250" id="accordion1">
+							<div class="card card-default">
+								<div class="card-header" id="collapse1HeadingOne">
+									<h4 class="card-title m-0">
+										<a class="accordion-toggle text-color-dark font-weight-bold collapsed"
+											data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false"
+											aria-controls="collapse1One">
+											En quoi consiste votre fonction exactement ?
+										</a>
+									</h4>
+								</div>
+								<div id="collapse1One" class="collapse" aria-labelledby="collapse1HeadingOne"
+									data-bs-parent="#accordion1">
+									<div class="card-body">
+										<p class="mb-0"> <strong>Pauline</strong> : Lorsqu’il y a eu une déclaration de sinistre je vais effectuer des recherches pour identifier la personne qui a subi le ou les dommages afin de nous assurer d’indemniser le bon bénéficiaire de l’indemnité. Je me charge également du contrôle anti-fraude pour éviter de verser une indemnité déjà perçue ou indue. Je dois aussi identifier la Compagnie concernée par le sinistre c’est-à-dire la Compagnie qui assure l’artisan qui a réalisé les travaux. Je m’occupe également de régler nos prestataires (honoraires des avocats; des experts, des huissiers, …) ; et chaque fin de mois je réalise un reporting pour les Compagnies afin qu’elles aient un suivi des sinistres et des indemnisations versées. Je fais bien sûr un contrôle de la qualité de ces données en amont et je m’assure de la conformité de ces informations avant communication à l’assureur. Enfin quand un dossier est clôturé et indemnisé dans son entièreté, je vérifie si des recours sont possibles auprès du ou des assureurs adverses.</p>
+									</div>
+								</div>
+							</div>
+							<div class="card card-default">
+								<div class="card-header" id="collapse1HeadingTwo">
+									<h4 class="card-title m-0">
+										<a class="accordion-toggle text-color-dark font-weight-bold collapsed"
+											data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false"
+											aria-controls="collapse1Two">
+											Quels sont les aspects de votre métier qui vous passionnent le plus ?
+										</a>
+									</h4>
+								</div>
+								<div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo"
+									data-bs-parent="#accordion1">
+									<div class="card-body">
+										<p class="mb-0"><strong>Pauline</strong> : Tout me plait ! Que ce soit l’analyse des pièces, la vérification du bon avancement des dossiers, la rigueur et la patience que cela demande ; ou encore la capacité à prendre des responsabilités car parfois des sommes importantes sont en jeu.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card card-default">
+								<div class="card-header" id="collapse1HeadingThree">
+									<h4 class="card-title m-0">
+										<a class="accordion-toggle text-color-dark font-weight-bold collapsed"
+											data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false"
+											aria-controls="collapse1Three">
+											Quels conseils donneriez-vous à quelqu’un qui souhaiterait faire le même métier que vous ?
+										</a>
+									</h4>
+								</div>
+								<div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree"
+									data-bs-parent="#accordion1">
+									<div class="card-body">
+										<p class="mb-0"><strong>Pauline</strong> : En premier lieu, être à l’aise sur Excel. Ensuite aimer investiguer et analyser. Il faut avoir un esprit un peu curieux. Enfin être capable de prendre des décisions et ne pas avoir peur des responsabilités car certaines indemnités peuvent atteindre des montants importants.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 text-center text-md-start">
+						<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+							<h3 class="font-weight-semibold text-color-dark text-transform-none text-5-5 pt-2 mb-3">Nous
+								recrutons</h3>
+							<p class="pb-1 mb-3">Nous recrutons des talents passionnés pour soutenir notre croissance en
+								courtage d'assurance. Découvrez nos opportunités de carrière. </p>
+							<a href="recrutement.php"
+								class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-3 btn-py-2 text-3"
+								data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>En savoir
+									plus</span></a>
+						</div>
+					</div>
+				</div>
 			</div>
 
+			<section class="section p-0 m-0 mt-5">
+				<div class="container">
+				<div class="row py-5 mt-3">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="overflow-hidden">
+									<h2 class="font-weight-semibold text-6-7 text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Compétences essentielles</h2>
+								</div>
+								<div class="custom-divider divider divider-primary divider-small my-3">
+									<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
+								</div>
+							</div>
+						</div>
+						<p class="text-3-5 pb-3 mb-4">Les compétences clés requises pour un responsable d’agence.<br>Nous valorisons les talents motivés par l'innovation et le service d'excellence à nos partenaires et clients.</p>
+					</div>
+					<div class="col-lg-6">
+						<div class="progress-bars">
+							<div class="progress-label d-flex justify-content-between">
+								<span class="text-color-dark font-weight-semibold text-2">ORGANISATION</span>
+								<span class="text-color-dark font-weight-semibold text-2">90%</span>
+							</div>
+							<div class="progress progress-xs progress-no-border-radius bg-color-grey mb-4">
+								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="90%"></div>
+							</div>
+
+							<hr class="my-0">
+
+							<div class="progress-label d-flex justify-content-between pt-2">
+								<span class="text-color-dark font-weight-semibold text-2">DYNAMISME ET RÉACTIVITÉ</span>
+								<span class="text-color-dark font-weight-semibold text-2">50%</span>
+							</div>
+							<div class="progress progress-xs progress-no-border-radius bg-color-grey mb-4">
+								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="50%"></div>
+							</div>
+
+							<hr class="my-0">
+
+							<div class="progress-label d-flex justify-content-between pt-2">
+								<span class="text-color-dark font-weight-semibold text-2">CAPACITÉS MANAGÉRIALES</span>
+								<span class="text-color-dark font-weight-semibold text-2">80%</span>
+							</div>
+							<div class="progress progress-xs progress-no-border-radius bg-color-grey mb-4">
+								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="80%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
 
 			<section class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0">
 				<svg class="custom-svg-3" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -844,7 +897,7 @@
 						<h5 class="text-transform-none font-weight-bold text-color-light text-4-5 mb-3">À PROPOS
 						</h5>
 						<ul class="list list-unstyled mb-0">
-							<li class="mb-0"><a href="./qui-sommes-nous.html">Qui sommes nous ?</a></li>
+							<li class="mb-0"><a href="./qui-sommes-nous.html">Qui sommes nous</a></li>
 							<ul class="list list-unstyled mb-0 ps-2 py-2" style="border-left: 1px solid #8080804d;">
 								<li class="mb-0"><a href="./notre-philosophie.html">Notre
 										philosophie</a></li>
@@ -857,7 +910,7 @@
 										financiers</a></li>
 							</ul>
 							<li class="mb-0"><a href="./mot-president.html">Le
-								mot du Président Fondateur</a></li>
+									mot du Président Fondateur</a></li>
 						</ul>
 					</div>
 					<div class="col-md-6 col-lg-3 offset-lg-1">
